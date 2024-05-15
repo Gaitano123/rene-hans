@@ -1,0 +1,137 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "fullnames": "John Doe",
+      "ratings": 4,
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam ultricies magna, id viverra eros volutpat nec."
+    },
+    {
+      "id": 2,
+      "fullnames": "Jane Smith",
+      "ratings": 5,
+      "review": "Nulla facilisi. Vivamus consectetur leo eget dui maximus malesuada. Phasellus vestibulum sapien nec lacus malesuada, nec ultricies urna fermentum."
+    },
+    {
+      "id": 3,
+      "fullnames": "Alice Johnson",
+      "ratings": 3,
+      "review": "Duis ac justo sit amet dui convallis fringilla. Fusce non nisl id mauris placerat placerat."
+    },
+    {
+      "fullnames": "George Asiyah",
+      "ratings": "4",
+      "review": "Absolutely thrilled with the exceptional service provided by this firm! From the initial consultation to the successful resolution of my case, every step was handled with utmost professionalism and care. The team's expertise and dedication truly exceeded my expectations. Communication was prompt and clear, ensuring I was informed at every stage of the process. I felt supported and confident throughout, knowing my legal matters were in capable hands. With gratitude, I highly recommend their services to anyone seeking reliable and effective representation. Thank you for your outstanding work and commitment to achieving the best outcomes for your clients.",
+      "id": 4
+    },
+    {
+      "fullnames": "Abel Mutua",
+      "ratings": "3",
+      "review": "The team's expertise and dedication truly exceeded my expectations. Communication was prompt and clear, ensuring I was informed at every stage of the process. I felt supported and confident throughout, knowing my legal matters were in capable hands. With gratitude, I highly recommend their services to anyone seeking reliable and effective representation.",
+      "id": 5
+    },
+    {
+      "fullnames": "William John",
+      "ratings": "4",
+      "review": "Absolutely thrilled with the exceptional service provided by this firm! From the initial consultation to the successful resolution of my case, every step was handled with utmost professionalism and care. The team's expertise and dedication truly exceeded my expectations. Communication was prompt and clear, ensuring I was informed at every stage of the process. I felt supported and confident throughout, knowing my legal matters were in capable hands. With gratitude, I highly recommend their services to anyone seeking reliable and effective representation. Thank you for your outstanding work and commitment to achieving the best outcomes for your clients.\n\n",
+      "id": 6
+    },
+    {
+      "fullnames": "John James",
+      "ratings": "3",
+      "review": "\nTo change the background color of the logo when scrolling down, you can use JavaScript to add a class to the logo element when the page is scrolled. Here's how you can do it:",
+      "id": 7
+    },
+    {
+      "fullnames": "Andy Cole",
+      "ratings": "3",
+      "review": "With this modification, the form will update the state for ratings with the entered value even if it's invalid. This allows the user to modify the input freely, and you can handle the validation and error messaging separately based on your application's requirements",
+      "id": 8
+    },
+    {
+      "fullnames": "ELAINE MUMMY",
+      "ratings": "4",
+      "review": "Excellent",
+      "id": 9
+    },
+    {
+      "fullnames": "John Mwangi",
+      "ratings": "4",
+      "review": "it was a very nice experience",
+      "id": 10
+    },
+    {
+      "fullnames": "George Asiyah",
+      "ratings": "2",
+      "review": "gdhjsh dhghfrjewher htrieuyffgd furiekjdfhyruiekd ",
+      "id": 11
+    }
+  ],
+  "appointment": [
+    {
+      "firstname": "George",
+      "lastname": "Asiyah",
+      "phonenumber": "0787927154",
+      "date": "2024-05-09",
+      "reason": "urgent",
+      "secondname": "Gaitano",
+      "email": "gaitanoasiyah@gmail.com",
+      "idorpassport": "42282407",
+      "time": "15:45",
+      "service": "land",
+      "additional": "none",
+      "id": 1
+    },
+    {
+      "firstname": "Gaitano",
+      "lastname": "Asiyah",
+      "phonenumber": "0787927154",
+      "date": "2024-05-09",
+      "reason": "urgent",
+      "secondname": "Gaitano",
+      "email": "gaitanoasiyah@gmail.com",
+      "idorpassport": "42282407",
+      "time": "15:45",
+      "service": "land",
+      "additional": "none",
+      "id": 2
+    }
+  ],
+  "contacts": [
+    {
+      "fullnames": "George Asiyah",
+      "email": "gaitanoasiyah@gmail.com",
+      "phonenumber": "3456789876543",
+      "subject": "ffffffffffffffffffffff ffffffffffffffffffffff hjklkjhgfdse rtggggggg ggggggggg gggtgtyyyy yyyyyy",
+      "id": 1
+    },
+    {
+      "fullnames": "George Asiyah",
+      "email": "gaitanoasiyah@gmail.com",
+      "phonenumber": "3456789876543",
+      "subject": "ffffffffffffffffffffff ffffffffffffffffffffff hjklkjhgfdse rtggggggg ggggggggg gggtgtyyyy yyyyyy",
+      "id": 2
+    },
+    {
+      "fullnames": "George Asiyah",
+      "email": "john@james123",
+      "phonenumber": "3847657483",
+      "subject": "hello wow",
+      "id": 3
+    }
+  ],
+  "emails": [
+    {
+      "email": "john@james123",
+      "id": 1
+    },
+    {
+      "email": "6206@sunshineschool.sc.ke",
+      "id": 2
+    },
+    {
+      "email": "ryanirungu15@gmail.com",
+      "id": 3
+    }
+  ]
+}
