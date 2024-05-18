@@ -78,7 +78,7 @@ function Footer(){
                     <div className="footinfo">
                         <p><i class="fa-solid fa-phone"></i> <span> +254716378184/+254700704724</span></p>
                         <p><a href='mailto: info@rhadvocates.co.ke' target='blank' ><i class="fa-solid fa-envelope"></i> <span> info@rhadvocates.co.ke</span></a></p>
-                        <a href='https://www.google.com/maps/place/Sanlam+House/@-1.2843857,36.8195896,17z/data=!3m1!4b1!4m6!3m5!1s0x182f10d65f5df39d:0x93c7656f3e344c6e!8m2!3d-1.2843857!4d36.8221645!16s%2Fg%2F1v_swq0g?authuser=0&entry=ttu' target='blank'><i class="fa-solid fa-location-dot"></i> <span> Salam House, Kenyatta Avenue, 4th Floor</span></a>
+                        <a href='https://www.google.com/maps/place/Sanlam+House/@-1.2843857,36.8195896,17z/data=!3m1!4b1!4m6!3m5!1s0x182f10d65f5df39d:0x93c7656f3e344c6e!8m2!3d-1.2843857!4d36.8221645!16s%2Fg%2F1v_swq0g?authuser=0&entry=ttu' target='blank'><i class="fa-solid fa-location-dot"></i> <span> Sanlam House, Kenyatta Avenue, 4th Floor</span></a>
                     </div>
                 </div>
                 <div className="newsletter">

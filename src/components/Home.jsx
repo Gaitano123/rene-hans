@@ -30,19 +30,19 @@ function Home(){
                           }}>Make Appointment</button>
                         </div>
                     </div>
-                    <div className='lnd-prt'>
-                        <div className='lnd-prt2'>
-                            <img src={img1} alt='image 1' />
-                            <p>building trust</p>
-                        </div>
-                        <div className='lnd-prt3'>
-                            <img src={img2} alt='image 2' />
-                            <p>delivering justice</p>
-                        </div>
-                        <div className='lnd-prt2'>
-                            <img src={img3} alt='image 3' />
-                            <p>powerfully representing you</p>
-                        </div>
+                </div>
+                <div className='lnd-prt'>
+                    <div className='lnd-prt2'>
+                        <img src={img1} alt='image 1' />
+                        <p>building trust</p>
+                    </div>
+                    <div className='lnd-prt3'>
+                        <img src={img2} alt='image 2' />
+                        <p>delivering justice</p>
+                    </div>
+                    <div className='lnd-prt2'>
+                        <img src={img3} alt='image 3' />
+                        <p>powerfully representing you</p>
                     </div>
                 </div>
             </div>
