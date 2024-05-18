@@ -73,7 +73,6 @@ function Home(){
             </div>
             <div className='landing2'>
                 <div className='process'>
-                    {/* <img src={process} alt='process' /> */}
                     <i class="fa-solid fa-stairs"></i>
                 </div>
                 <div className="landing2_2">

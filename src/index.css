@@ -523,22 +523,31 @@ body {
 
 @media screen and (max-width: 767px){
 
+  .lnd-sctn{
+    height: 88vh;
+    background: url(./components/justice/360_F_516209984_APT701DWSDCUPzErByEByUrqEjHwRYCX.jpg);
+    background-size: cover;
+  }
+
+  .lnd-prt{
+    flex-direction: column;
+    align-items: center;
+  }
+
   .lnd-prt2{
-    width: 20vh;
+    width: 25vh;
     height: 25vh;
     font-size: 15px;
     padding: 10px;
+    margin-bottom: 2vh;
   }
 
   .lnd-prt3{
-    width: 20vh;
+    width: 24vh;
     height: 25vh;
     font-size: 15px;
     padding: 10px;
-  }
-
-  .home1{
-    padding-top: 16vh;
+    margin-bottom: 2vh;
   }
 
   .home1 h3{
@@ -553,19 +562,22 @@ body {
 
   .home2-2{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
 
-  .home2-4{
-    height: 25vh;
-    width: 40vh;
+  .home2-4 img{
+    height: 23vh;
   }
 
-  .home2-4{
-    height: 25vh;
-    width: 40vh;
-    object-fit: cover;
+  .landing2{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .process{
+    display: none;
   }
 
 
@@ -1310,6 +1322,11 @@ input[type="number"]::-webkit-outer-spin-button {
     align-items: center;
     padding: 5vh 0 0 0;
     margin: 0;
+  }
+
+  .about7_1{
+    display: flex;
+    flex-direction: column;
   }
 
   .about8{
