@@ -63,14 +63,14 @@ function Footer(){
                         <div>
                             <ul>
                                 <li><NavLink className='navlink2' exact to='/' onClick={scrollToTop}>home</NavLink></li>
-                                <li><NavLink className='navlink2' to='/service' onClick={scrollToTop}>service</NavLink></li>
+                                {/* <li><NavLink className='navlink2' to='/service' onClick={scrollToTop}>service</NavLink></li> */}
                                 <li><NavLink className='navlink2' to='/about' onClick={scrollToTop}>about</NavLink></li>
                                 <li><NavLink className='navlink2' to='/gallery' onClick={scrollToTop}>gallery</NavLink></li>
                             </ul>
                             <ul>
                                 <li><NavLink className='navlink2' to='/blog' onClick={scrollToTop}>blog</NavLink></li>
-                                <li><NavLink className='navlink2' to='/reviews' onClick={scrollToTop}>reviews</NavLink></li>
-                                <li><NavLink className='navlink2' to='/appointment' onClick={scrollToTop}>make appointment</NavLink></li>
+                                {/* <li><NavLink className='navlink2' to='/reviews' onClick={scrollToTop}>reviews</NavLink></li> */}
+                                {/* <li><NavLink className='navlink2' to='/appointment' onClick={scrollToTop}>make appointment</NavLink></li> */}
                                 <li><NavLink className='navlink2' to='/get-in-touch' onClick={scrollToTop}>get in touch</NavLink></li>
                             </ul>
                         </div>

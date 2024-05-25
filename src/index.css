@@ -16,13 +16,12 @@ body {
 /* ----------------------Navbar--------------------- */
 
 .navbar {
-  position: fixed;
+  background-color: #16192C; 
   z-index: 10;
   display: flex;
   justify-content: space-between;
   height: 10vh;
   width: 100%;
-  transition: background-color 0.5s ease; 
 }
 
 .navbar.scrolled {
@@ -38,10 +37,10 @@ body {
   font-weight: 600;
   color: #ffffff;
   text-decoration: none; 
+  margin-left: 20px;
 }
 
 .nav1:hover{
-  color: #60212C;
   cursor: pointer;
 }
 
@@ -55,6 +54,7 @@ body {
   text-decoration: none;
   padding: 15px;
   text-transform: uppercase;
+  position: relative;
   font-weight: 600;
   color: #fff;
 }
@@ -63,39 +63,51 @@ body {
   color: #60212C;
 }
 
+.navlink::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; /* Adjust the thickness of the underline */
+  background-color: #60212C;
+  bottom: -2px; /* Position the underline just below the text */
+  left: 50%;
+  transition: all 0.6s ease;
+  transform: translateX(-50%);
+}
+
+
+.navlink:hover::after {
+  width: 100%;
+  left: 0;
+  transform: translateX(0);
+}
+
 .navlink:hover{
   color: #60212C;
 }
 
 .navbutt{
   border:3px solid #60212C;
-  height: 40px;
-  width: 150px;
+  padding: 7px;
   border-radius: 30px;
   background: none;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
-  margin-right: 5px;
+  margin-right: 50px;
 }
 
 .navbutt:hover{
-  background-color: #fff;
-  border:3px solid #fff;
-  color: #60212C;
+  background-color: #60212C;
+  border:3px solid #60212C;
+  color: #fff;
 }
 
 .logo{
   height: 55px;
   padding: 4px;
 }
-
-.logo.show-bg {
-  background-color: #fff;
-  margin-right: 3px;
-}
-
 
 .menu-icon{
   display: none;
@@ -253,12 +265,12 @@ body {
 
 }
 
-
 /* ----------------------Home--------------------- */
 
 .lnd-sctn{
   height: 88vh;
   background: url(./components/justice/360_F_516209984_APT701DWSDCUPzErByEByUrqEjHwRYCX.jpg);
+  border-radius: 0px 0px 30px 30px;
   background-size: cover;
 }
 
@@ -370,8 +382,22 @@ body {
   width: 100%;
 }
 
+.home2-3{
+  display: flex;
+}
+
 .home2-3 div{
   width: 50vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5C5C66;
+  border-radius: 30px;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
 }
 
 .home2-3 div h4{
@@ -397,8 +423,8 @@ body {
 
 
 .landing2{
-  background-color: #16192C;
-  margin: 0px 0px 100px 0px;
+  background-color: #5C5C66;
+  margin: 5vh 0px 20px 0px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -411,7 +437,7 @@ body {
 
 .process{
   background: none;
-  border: 4px solid #60212C;
+  border: 4px solid #fff;
   width: fit-content;
   border-radius: 50%;
   height: 15vh;
@@ -422,6 +448,10 @@ body {
   color: #60212C;
   font-size: 45px;
   padding: 7px;
+}
+
+.process i{
+  color: #fff;
 }
 
 .landing2 div button{
@@ -457,7 +487,7 @@ body {
   } 
 
   .lnd-prt{
-    padding: 10vh 0 0 0;
+    padding: 3vh 0 0 0;
   }
 
   .home1{
@@ -472,8 +502,11 @@ body {
   
   .home2-2 {
     display: flex;
-    justify-content: space-between;
     width: 100%;
+  }
+
+  .home2-3{
+    flex-direction: column;
   }
   
   .home2-3 div{
@@ -564,6 +597,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .home2-3{
+    flex-direction: column;
   }
 
   .home2-4 img{
@@ -1209,6 +1246,9 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .about-image{
   height: 200px;
+  width: 300px;
+  object-fit: cover;
+  align-self: center;
 }
 
 .about7{
@@ -1224,13 +1264,10 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .about8{
   margin: 6px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 30em;
-}
-
-.about8 img{
-  width: 100%;
-  height: fit-content;
 }
 
 .about8 p{

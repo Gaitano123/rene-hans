@@ -35,11 +35,11 @@ function Navbar(){
             </div>
             <ul className="nav2">
                 <li><NavLink onClick={scrollToTop} className='navlink' exact to='/'>home</NavLink></li>
-                <li><NavLink onClick={scrollToTop} className='navlink' to='/service'>service</NavLink></li>
+                {/* <li><NavLink onClick={scrollToTop} className='navlink' to='/service'>service</NavLink></li> */}
                 <li><NavLink onClick={scrollToTop} className='navlink' to='/about'>about</NavLink></li>
                 <li><NavLink onClick={scrollToTop} className='navlink' to='/gallery'>gallery</NavLink></li>
                 <li><NavLink onClick={scrollToTop} className='navlink' to='/blog'>blog</NavLink></li>
-                <li><NavLink onClick={scrollToTop} className='navlink' to='/reviews'>reviews</NavLink></li>
+                {/* <li><NavLink onClick={scrollToTop} className='navlink' to='/reviews'>reviews</NavLink></li> */}
             </ul>
             <button className="navbutt" onClick={() => {navigate("/get-in-touch"); scrollToTop();}}>
                 Get in touch

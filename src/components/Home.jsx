@@ -23,12 +23,6 @@ function Home(){
                     <div className='landing'>
                         <p>begin your journey </p>
                         <span>to justice</span>
-                        <div>
-                          <button onClick={() => {
-                            navigate("/appointment");
-                            window.scrollTo(0, 0);
-                          }}>Make Appointment</button>
-                        </div>
                     </div>
                 </div>
                 <div className='lnd-prt'>
@@ -45,9 +39,6 @@ function Home(){
                         <p>powerfully representing you</p>
                     </div>
                 </div>
-            </div>
-            <div className="home1">
-                <h3>Acquire the knowledge, guidance, and resources necessary to accomplish your essential objectives</h3>
             </div>
             <div className="home2_1">
                 <h3>Empowering clients: From Strategic Vision to Effective Implementation</h3>
@@ -66,9 +57,45 @@ function Home(){
                             <p>Tailoring strategies and tools specifically to address the challenges and goals of businesses</p>
                         </div>
                     </div>
-                    <div className="home2-4">
-                        <img src={image} alt="image" />
-                    </div>
+                </div>
+            </div>
+            <div  className="serv1">
+                <div className="heading">
+                    <h3>Tailored legal solutions for your peace of mind</h3>
+                </div>
+                <div className="serv2">
+                <div>
+                    <i class="fa-solid fa-gavel"></i>
+                    <p>Litigation and Dispute Resolution</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-handshake"></i>
+                    <p>Corporate and Commercial Law</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <p>Real Estate Law</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <p>Intellectual Property Law</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-heart"></i>
+                    <p>Family Law</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-users"></i>
+                    <p>Employment Law</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-key"></i>
+                    <p>Estate Planning and Probate</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-passport"></i>
+                    <p>Immigration Law</p>
+                </div>
                 </div>
             </div>
             <div className='landing2'>
@@ -78,9 +105,6 @@ function Home(){
                 <div className="landing2_2">
                     <p>take the first step</p>
                     <p>Your journey towards justice starts with one decisive action.</p>
-                </div>
-                <div>
-                    <button onClick={() => {navigate("/get-in-touch"); scrollToTop();}}>get in touch</button>
                 </div>
             </div>
         </div>
